@@ -14,21 +14,10 @@ const Header = () => {
           to="/"
           className="text-2xl font-semibold tracking-tight text-foreground flex items-center gap-2 transition-all duration-300 hover:opacity-80"
         >
-          <div className="w-8 h-8 bg-primary rounded-md flex items-center justify-center text-primary-foreground">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-5 h-5"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="2"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M13.5 3H12H8C6.34315 3 5 4.34315 5 6V18C5 19.6569 6.34315 21 8 21H16C17.6569 21 19 19.6569 19 18V8.625M13.5 3L19 8.625M13.5 3V7.625C13.5 8.17728 13.9477 8.625 14.5 8.625H19" />
-            </svg>
+          <div className="w-12 h-12 rounded-md flex items-center justify-center text-primary-foreground">
+            <img src="logo" alt="Logo" />
           </div>
-          <span>iX</span>
+          <span className="">shortner</span>
         </Link>
 
         <nav className="flex items-center gap-6">
